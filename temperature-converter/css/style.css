@@ -1,0 +1,36 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h2,h1,h3,form{
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin: 20px auto;
+}
+
+body>form+button+h2{
+  border:2px solid blue;
+  color: blue;
+  font-size: 50px;
+  width:20%;
+  margin:auto;
+  
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
